@@ -1,0 +1,20 @@
+/* search  */
+& .MuiOutlinedInput-root {
+  &.Mui-focused fieldset {
+    border-color: transparent;
+  }
+  fieldset {
+    border: none;
+  }
+  &:hover fieldset {
+    border: none;
+  }
+  &:focus fieldset {
+    border: none;
+    color: brown;
+  }
+}
+
+.css-clttge-MuiAutocomplete-root .MuiOutlinedInput-root {
+  padding: 5px !important;
+}
